@@ -34,6 +34,10 @@ Second, clone or download this repository👇.
 
 `:CHADdeps`
 
+**If I then exit neovim and reopen it, the error message is output again. It will ask you to run :COQdeps, which you should do.**
+
+`:COQdeps`
+
 This will install all the required plugins⚡️.
 
 **✨🎉That's it! You can now use the settings and plugins provided by the examples in this repository to customize your Neovim experience.**
