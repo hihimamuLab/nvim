@@ -26,7 +26,13 @@ Second, clone or download this repository👇.
 
 **Once inside Neovim(command is `nvim`), run the following command to install the necessary plugins:**
 
+**Attention⚠**: You will get a large number of errors, please hit Enter repeatedly and ignore them.
+
 `:PackerSync`
+
+**The error message will tell you to run :CHADdeps, so run it.**
+
+`:CHADdeps`
 
 This will install all the required plugins⚡️.
 
