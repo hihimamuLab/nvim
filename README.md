@@ -4,7 +4,7 @@ Welcome to the Neovim Example Settings repository! This repository provides exam
 
 # Usage
 
-**Attention⚠**: t is recommended that pacman be up-to-date prior to installation⚡️.
+**Attention⚠**: it is recommended that pacman be up-to-date prior to installation⚡️.
 
 `sudo pacman -Syu`
 
