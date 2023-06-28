@@ -24,7 +24,15 @@ This repository includes the following colorschemes to be used with Neovim, alon
 
 You can use each colorscheme with the Neovim text editor. Clicking on the name of each colorscheme will take you to the respective author's GitHub repository. Additionally, you can click on the image to view the screenshot of that particular colorscheme.
 
-Note: The colorscheme images may differ slightly from the actual appearance. Please use them in Neovim to see the actual rendering.
+You can also use them with the :colorscheme command, but if you want colorscheme to be applied automatically when neovim starts, add the following line to init.lua
+```
+vim.cmd('syntax on')
+vim.cmd('colorscheme ******')
+vim.cmd([[autocmd VimEnter * CHADopen]])
+```
+(where `******` is the name of the colorscheme you want to apply) and write!
+
+Attention: The colorscheme images may differ slightly from the actual appearance. Please use them in Neovim to see the actual rendering.
 
 **Thanks for watching this repository**
 
