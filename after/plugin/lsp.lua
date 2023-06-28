@@ -35,5 +35,4 @@ mason_lsp.setup_handlers {
   end
 }
 
-
 mason.setup {}

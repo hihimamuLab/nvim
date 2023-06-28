@@ -13,7 +13,8 @@ end
 local bootstrap = ensure_packer()
 
 require("packer").startup(function(use)
-  use "jdkanani/vim-material-theme"
+  use "lewis6991/gitsigns.nvim"
+  use "RRethy/vim-illuminate"
   use "wbthomason/packer.nvim"
   use "williamboman/mason.nvim"
   use "williamboman/mason-lspconfig.nvim"
@@ -24,17 +25,16 @@ require("packer").startup(function(use)
   use "nvim-lualine/lualine.nvim"
   use "neovim/nvim-lspconfig"
   use "nvim-treesitter/nvim-treesitter"
-  use "folke/tokyonight.nvim"
-  use "marko-cerovac/material.nvim"
   use "akinsho/toggleterm.nvim"
   use "kdheepak/tabline.nvim"
   use "kyazdani42/nvim-web-devicons"
   use "andweeb/presence.nvim"
-  use "airblade/vim-gitgutter"
-  use "Mofiqul/vscode.nvim"
-
-  if bootstrap then
-    require("packer").sync()
-  end
+  use "neoclide/coc.nvim"
+  use "rust-lang/rust.vim"
+  use "Shougo/ddc.vim"
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.1',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
 end)
 
